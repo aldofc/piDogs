@@ -17,7 +17,7 @@ const Landing = () => {
     
   <div className='centrar'>
     
-        <Link to={"/home"}> <button className='botonHome'>Vamos!!</button> </Link>
+        <Link to={"/home"}> <button className='botonHome'>Lets Go!!</button> </Link>
 
         <div className='bajar'>
 
