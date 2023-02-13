@@ -6,6 +6,8 @@ import Landing from './Components/Landing/Landing';
 import NavBar from './Components/NavBar/NavBar';
 
 
+
+
 function App() {
   return (
     <div className="App">
@@ -14,7 +16,9 @@ function App() {
         <Switch>
           <Route exact path="/" component={Landing} />
           <Route  path="/" component={NavBar} />
+
           <Route exact path="/home" component={Home} />
+          
         </Switch>
       </React.Fragment>
       
